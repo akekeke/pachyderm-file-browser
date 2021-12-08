@@ -1,0 +1,36 @@
+{
+  "name": "frontend-interview",
+  "version": "1.0.0",
+  "description": "",
+  "main": "backend/server.js",
+  "scripts": {
+    "preserve": "webpack --config webpack.config.js --watch &",
+    "serve": "node backend/server.js",
+    "postserve": "pkill -f webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pachyderm/frontend-interview.git"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/pachyderm/frontend-interview/issues"
+  },
+  "homepage": "https://github.com/pachyderm/frontend-interview#readme",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "express": "^4.17.1",
+    "promisify-node": "^0.5.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-markdown": "^4.3.1",
+    "react-router-dom": "^6.0.2",
+    "react-syntax-highlighter": "^12.2.1",
+    "webpack": "^4.41.3",
+    "webpack-cli": "^3.3.10"
+  }
+}
